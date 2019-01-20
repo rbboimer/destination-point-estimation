@@ -6,17 +6,22 @@ Estimating the destination point or the intended travel destination is imperativ
 
 This repo includes sample training and test datasets as well as the code required to reproduce the results obtained in the accompanying paper.
 
-Please follow the below instructions to get a copy of the project up and running on your local machine.
-
 ### Prerequisites
 
-Required software:
+* [python 3.6.x](https://www.python.org/downloads/release/python-368/)
+* [pandas](https://pandas.pydata.org)
+* [numpy](http://www.numpy.org)
+
+### Running the code
+
+To run the code save `DestinationPointEstimation.py`, `Utils.py`, `TestData.csv`, and `TrainData.csv` in the same directory and run `DestinationPointEstimation.py` in your preferred python environment. Once it is running you will see iteration and accuracy results printed to the console. 
 
 ```
-pandas
-numpy
+Iteration  1 / 216 Accuracy is:  0.28
+Iteration  2 / 216 Accuracy is:  0.3
+...
 ```
 
-## Running the code
+Upon completion you will get a plot reflecting the final accuracy results per iteration.
 
-Explain how to run the code and add sample output
+![results plot](https://github.com/rbboimer/destination-point-estimation/images/SampleResults.png)
