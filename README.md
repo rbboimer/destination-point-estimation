@@ -24,4 +24,4 @@ Iteration  2 / 216 Accuracy is:  0.3
 
 Upon completion you will get a plot reflecting the final accuracy results per iteration.
 
-![results plot](https://github.com/rbboimer/destination-point-estimation/images/SampleResults.png)
+![results plot](https://github.com/rbboimer/destination-point-estimation/blob/master/images/SampleResults.png)
